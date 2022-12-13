@@ -2,6 +2,7 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 import praktikum.Bun;
+
 import static org.junit.Assert.assertEquals;
 
 @RunWith(Parameterized.class)
@@ -32,6 +33,6 @@ public class PBunTest {
     @Test
     public void getPriceReturnedValidPrice() {
         Bun bun = new Bun(name, price);
-        assertEquals("Sorry, price incorrect", price ,bun.getPrice(), 0.0f);
+        assertEquals("Sorry, price incorrect", price, bun.getPrice(), 0.0f);
     }
 }

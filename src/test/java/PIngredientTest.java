@@ -36,19 +36,18 @@ public class PIngredientTest {
     @Test
     public void getPriceReturnCorrectPrice() {
         Ingredient ingredient = new Ingredient(type, name, price);
-        assertEquals("Sorry, price incorrect", price ,ingredient.getPrice(), 0.0f);
+        assertEquals("Sorry, price incorrect", price, ingredient.getPrice(), 0.0f);
     }
 
     @Test
     public void getNameReturnValidName() {
         Ingredient ingredient = new Ingredient(type, name, price);
-        assertEquals("Sorry, name incorrect",name ,ingredient.getName());
+        assertEquals("Sorry, name incorrect", name, ingredient.getName());
     }
 
     @Test
-    public void getTypeReturnCorrectType(){
+    public void getTypeReturnCorrectType() {
         Ingredient ingredient = new Ingredient(type, name, price);
-        assertEquals("Sorry, type incorrect", type ,ingredient.getType());
-
+        assertEquals("Sorry, type incorrect", type, ingredient.getType());
     }
 }
