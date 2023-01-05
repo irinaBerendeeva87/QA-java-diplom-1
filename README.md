@@ -1,23 +1,18 @@
-🚀API Stellar.Burgers🚀
+🚀**Unit tests for Stellar.Burgers**🚀
 
-As part of the training, I tested the API of the Stellar Burgers training service using the JUnit 4, RestAssured and Allure.  
-The project uses Java 11 and used the Maven build system.
-And the Allure report was generated.
+As part of the training, I wrote unit tests for a program that helps order a burger at Stellar Burgers using the Jacoco, Mockito, and JUnit 4.  
+The project used Java 11 and used the Maven build system.
+And the Jacoco report was generated.
 
-📝Written tests📝
+📝**Task**📝
 
-create a user;
-login a user;
-change user data ( with authorization and without authorization);
-create order;
-get orders from a specific user.
-📁Documentation📁
-
-You can find the documentation at https://code.s3.yandex.net/qa-automation-engineer/java/cheatsheets/paid-track/diplom/api-documentation.pdf
+Cover the Bun, Burger, Ingredient, and Ingredient Type classes with tests. 
+Use mock, stabs and parameterization where needed.
 
 🔖**Instructions how to run:**🔖
 
-Fork this repo and clone your version of the report.
-Run AllTest.java
-Generate a report via command allure serve target/surefire-reports/
-Footer
+- clone this repo.
+- run AllTests.java
+Generate a Jacoco report:
+1. make command : mvn verify
+2. find the file in the target/site/jacoco/ folder index.html , right—click on it and select Open In - Browser — your browser.
