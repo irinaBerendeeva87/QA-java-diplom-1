@@ -9,10 +9,11 @@ And the Jacoco report was generated.
 Cover the Bun, Burger, Ingredient, and Ingredient Type classes with tests. 
 Use mock, stabs and parameterization where needed.
 
-🔖**Instructions how to run:**🔖
+🔖**Instructions how to run**🔖
 
 - clone this repo.
 - run AllTests.java
-Generate a Jacoco report:
+
+**Generate a Jacoco report**
 1. make command : mvn verify
 2. find the file in the target/site/jacoco/ folder index.html , right—click on it and select Open In - Browser — your browser.
